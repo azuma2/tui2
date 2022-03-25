@@ -13,7 +13,7 @@
     <NuxtLink to="/logout">ログアウト</NuxtLink>
     <NuxtLink to="/component">コンポーネント</NuxtLink>
     <NuxtLink to="/toukou">投稿</NuxtLink>
-    <div id="app"><sample-component>tesu<sample-component/></div>
+    <div id="app"><sample-component>tesu<sample-component></div>
   </div>
   
   
