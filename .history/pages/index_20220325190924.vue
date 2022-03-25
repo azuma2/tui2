@@ -12,10 +12,10 @@
     <br />
     <NuxtLink to="/logout">ログアウト</NuxtLink>
     <NuxtLink to="/component">コンポーネント</NuxtLink>
-    <div id="app"><sample-component>tesu</sample-component></div>
   </div>
-  
-  
+  <div id="app">
+  <sample-component></sample-component>
+</div>
 </template>
 
 <script>
