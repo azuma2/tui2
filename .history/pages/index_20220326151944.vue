@@ -1,10 +1,7 @@
 
 <style>
-.tes{
-
-}
 .waku{
-
+    display: -webkit-flex;
   display: flex;
 }
 
@@ -19,7 +16,7 @@
 <div class="waku">
   <div class="tes">
   <FooSidebar></FooSidebar>
-  </div>
+  
   <div class="main2">
     
     <NuxtLink to="/logout">ログアウト</NuxtLink>

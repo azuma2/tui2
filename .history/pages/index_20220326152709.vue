@@ -4,7 +4,7 @@
 
 }
 .waku{
-
+    display: -webkit-flex;
   display: flex;
 }
 

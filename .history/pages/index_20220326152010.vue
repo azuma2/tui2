@@ -1,10 +1,13 @@
 
 <style>
 .tes{
-
+    position: sticky;
+  margin-bottom: 0;
+  top: 10px;
+  z-index: 1;
 }
 .waku{
-
+    display: -webkit-flex;
   display: flex;
 }
 

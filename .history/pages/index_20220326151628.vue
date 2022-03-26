@@ -1,14 +1,6 @@
 
 <style>
-.tes{
-
-}
-.waku{
-
-  display: flex;
-}
-
-.main2{
+.container2{
 
   display: block;
 }
@@ -16,12 +8,9 @@
 
 
 <template>
-<div class="waku">
-  <div class="tes">
-  <FooSidebar></FooSidebar>
-  </div>
+<div class="col">
   <div class="main2">
-    
+    <FooSidebar></FooSidebar>
     <NuxtLink to="/logout">ログアウト</NuxtLink>
     <NuxtLink to="/component">コンポーネント</NuxtLink>
     <NuxtLink to="/toukou">投稿</NuxtLink>

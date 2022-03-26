@@ -1,10 +1,8 @@
 
 <style>
-.tes{
 
-}
 .waku{
-
+    display: -webkit-flex;
   display: flex;
 }
 

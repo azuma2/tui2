@@ -1,7 +1,5 @@
 
 <template>
-<div class="row">
-<div class="col-3">
   <div class="sidebar">
     <div class="sidebar-wrapper">
       <div class="sidebar-link-area">
@@ -23,14 +21,13 @@
       </div>
     </div>
   </div>
-  </div>
-</div>
 </template>
 
 
 
 <style>
 .sidebar {
+  position: relative;
   background-color: rgb(41, 45, 88);
   height: 100%; /* サイドバーの高さ */
   width: 400px; /* サイドバーのwidthを指定 */

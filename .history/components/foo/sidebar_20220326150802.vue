@@ -23,14 +23,15 @@
       </div>
     </div>
   </div>
-  </div>
-</div>
 </template>
 
 
 
 <style>
 .sidebar {
+    box-sizing: border-box;
+    position: sticky;
+  overflow: auto;
   background-color: rgb(41, 45, 88);
   height: 100%; /* サイドバーの高さ */
   width: 400px; /* サイドバーのwidthを指定 */

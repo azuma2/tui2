@@ -1,7 +1,5 @@
 
 <template>
-<div class="row">
-<div class="col-3">
   <div class="sidebar">
     <div class="sidebar-wrapper">
       <div class="sidebar-link-area">
@@ -16,21 +14,20 @@
         </div>
         <p class="moji">シェア</p>
 
-          <textarea class="area" type="text"  name="content" />
+          < class="area" type="text"  name="content" />
           <div class="btnichi"><input class="btn2" type="submit" value="シェアする" />
           <button class="btn2" @click="login">ログイン</button></div>
 
       </div>
     </div>
   </div>
-  </div>
-</div>
 </template>
 
 
 
 <style>
 .sidebar {
+  position: relative;
   background-color: rgb(41, 45, 88);
   height: 100%; /* サイドバーの高さ */
   width: 400px; /* サイドバーのwidthを指定 */
