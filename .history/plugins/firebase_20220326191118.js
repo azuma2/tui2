@@ -6,7 +6,10 @@ import firebase from 'firebase'
 const config = {
   projectId: process.env.FIREBASE_PROJECT_ID
 }
-
+//二重に初期化が行われないために!firebase.app.lengthで確認をする
+if (firebase.apps.length === 0) {
+  firebase.initializeApp(config)
+}
 
 if (!firebase.apps.length) {
   firebase.initializeApp(

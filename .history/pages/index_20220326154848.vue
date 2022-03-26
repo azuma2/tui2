@@ -4,7 +4,6 @@
 
 }
 .waku{
-  width: 40%;
 justify-content: space-between;
   display: flex;
 }

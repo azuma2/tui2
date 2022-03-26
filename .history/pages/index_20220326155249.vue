@@ -4,13 +4,13 @@
 
 }
 .waku{
-  width: 40%;
+  width: 50%;
 justify-content: space-between;
   display: flex;
 }
 
 .main2{
-
+widows: ;
   display: block;
 }
 </style>
